@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Start of nav -->
+
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="images/cafe14.png"  alt="logo" />
+         </a>
+          <button class="btn nav-btn">
+            <i class="fa-solid fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="tags.html" class="nav-link">Tags</a>
+          <a href="recipes.html" class="nav-link">Recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- End of nav -->
+
+    <!--Start of main-->
+
+    <main class="page">
+
+       <section class="contact-container">
+
+        <article class="contact-info">
+             
+            <h3>Would you like to contact us?</h3>
+            <p>We are located nearby tangail city.Our services are best in the city.
+            Enjoy our recepie and have an enjoyable time.
+            </p>
+            <p>We are open 24/7. Feel free to contact if you need us.</p>
+            <p>We are located nearby tangail city.Our services are best in the city.
+            Enjoy our recepie and have an enjoyable time.
+            </p>
+            <a href="contact.html" class="btn">Contact</a>
+        </article>
+
+        <article>
+            <form class="form contact-form">
+                <!--single form row-->
+                <div class="form-row">
+                    <label for="name" class="form-label">Your name</label>
+                    <input type="text" name="name" id="name" class="form-input">
+                </div>
+                <!--End of single form row-->
+                <!--single form row-->
+                <div class="form-row">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" name="email" id="email" class="form-input">
+                </div>
+                <!--End of single form row-->
+
+                <div class="form-row">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea name="message" id="message" class="form-textarea"></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Submit</button>
+            </form>
+        </article>
+
+       </section>
+
+       <section class="featured-items">
+        <h5 class="featured-title">Check our awesome features</h5>
+        <!--Start of recepies list-->
+        <div class="recepies-list">
+          <!--single recepie-->
+          <a href="./single-recepie.html" class="recepie">
+            <img src="images/recepie1.jpg" alt="" class="img img-recepie">
+            <h5>Mad Burger</h5>
+            <p>prep : 13min | cook : 5min</p>
+          </a>
+          <!--End single recepie-->
+
+          <!--single recepie-->
+          <a href="./single-recepie.html" class="recepie">
+            <img src="images/recepie2.jpg" alt="" class="img img-recepie">
+            <h5>vegetables</h5>
+            <p>prep : 10min | cook : 5min</p>
+          </a>
+          <!--End single recepie-->
+
+          <!--single recepie-->
+          <a href="./single-recepie.html" class="recepie">
+            <img src="images/recepie3.jpg" alt="" class="img img-recepie">
+            <h5>ribs</h5>
+            <p>prep : 15min | cook : 10min</p>
+          </a>
+          <!--End single recepie-->
+
+          <!--single recepie-->
+          <a href="./single-recepie.html" class="recepie">
+            <img src="images/recepie4.jpg" alt="" class="img img-recepie">
+            <h5>french fry</h5>
+            <p>prep : 15min | cook : 5min</p>
+          </a>
+          <!--End single recepie-->
+
+        </div>
+        <!--End of recepies list-->
+      </section>
+
+    </main>
+    <!--End of main-->
+
+   
+
+    <!--Start of footer-->
+
+    <footer class="page-footer">
+        <p>&copy; <span id="date">2021</span><span class="cafe-14">Cafe 14</span> Built by <a href="#">shawon</a></p>
+    </footer>
+
+    <!--End of footer-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
